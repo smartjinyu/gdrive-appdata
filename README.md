@@ -34,7 +34,8 @@ appdata-<account name>-<timestamp>/<package name>/
 
 ```
 ./get-gdrive-appdata.py --account foo.bar.baz@gmail.com  --password foo.bar.baz \
---target-package com.example.app --target-package-sig 0000000000000000000000000000000000000000 --device-id 000000000000
+--target-package com.example.app --target-package-sig 0000000000000000000000000000000000000000 \
+--device-id 000000000000
 ```
 
 ## References, etc
